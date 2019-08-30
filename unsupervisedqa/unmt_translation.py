@@ -18,11 +18,11 @@ import subprocess
 import tempfile
 import sys
 sys.path.append(PATH_TO_UNMT) # simple hack on the path to import Unsupervised NMT functionality
-from src.data.loader import check_all_data_params, load_data
-from src.utils import restore_segmentation
-from src.model import check_mt_model_params, build_mt_model
-from src.trainer import TrainerMT
-from src.evaluator import EvaluatorMT
+from UnsupervisedMT.NMT.src.data.loader import check_all_data_params, load_data
+from UnsupervisedMT.NMT.src.utils import restore_segmentation
+from UnsupervisedMT.NMT.src.model import check_mt_model_params, build_mt_model
+from UnsupervisedMT.NMT.src.trainer import TrainerMT
+from UnsupervisedMT.NMT.src.evaluator import EvaluatorMT
 import torch
 
 
