@@ -18,24 +18,5 @@ wget -P ${DATA_DIR} "${BUCKET}/${MODEL}.tar.gz"
 tar -zxvf "${DATA_DIR}/${MODEL}.tar.gz" -C ${DATA_DIR}
 rm "${DATA_DIR}/${MODEL}.tar.gz"
 
-MODEL="subclause_ne"
-echo "Downloading Model: ${MODEL}"
-wget -P ${DATA_DIR} "${BUCKET}/${MODEL}.tar.gz"
-tar -zxvf "${DATA_DIR}/${MODEL}.tar.gz" -C ${DATA_DIR}
-rm "${DATA_DIR}/${MODEL}.tar.gz"
-
-
-MODEL="sentence_ne"
-echo "Downloading Model: ${MODEL}"
-wget -P ${DATA_DIR} "${BUCKET}/${MODEL}.tar.gz"
-tar -zxvf "${DATA_DIR}/${MODEL}.tar.gz" -C ${DATA_DIR}
-rm "${DATA_DIR}/${MODEL}.tar.gz"
-
-
-MODEL="sentence_np"
-echo "Downloading Model: ${MODEL}"
-wget -P ${DATA_DIR} "${BUCKET}/${MODEL}.tar.gz"
-tar -zxvf "${DATA_DIR}/${MODEL}.tar.gz" -C ${DATA_DIR}
-rm "${DATA_DIR}/${MODEL}.tar.gz"
 
 
